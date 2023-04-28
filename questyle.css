@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #2906d5;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px; 
+    width: 30%;
+    margin: 10px 35%;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.header {
+    background: #2706e4;
+    border-radius: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    width: 380px;
+    height: 80px;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px 5px;
+    background: transparent;
+  }
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.avatar img {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+.award {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    background: transparent;
+}
+.award img {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+.text {
+    margin: 20px 20px;
+}
+.text p {
+    background: transparent;
+}
+.title {
+    display: block;
+    width: 80%;
+    margin: 5%;
+}
+.title h2 {
+    margin: 10px auto;
+}
+hr {
+    margin: 20px 0;
+}
+
+#question-no {
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 25px;
+    min-width: 250px;
+    margin: 20px 10px 10px 15px;
+}
+
+
+button {
+    background: #fff;
+    color: #2906d5;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    cursor: pointer;
+    margin: 20px 15%;
+    align-items: center;
+    width: 75%;
+    display: block;
+    border: none;
+    font-weight: 600;
+}
+
+@media(max-width: 700px) {
+    .section {
+        width: 90%;
+        margin: 5%;
+    }
+    .section a {
+        margin-bottom: 50px;
+    }
+    .header {
+        margin-bottom: 15px;
+        width: 310px;
+        margin-top: 0%;
+    }
+    .profile {
+        display: flex;
+        flex-direction: row;
+      }
+    .avatar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .avatar img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .award {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        background: transparent;
+    }
+    .award img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .text {
+        margin: 20px 10px;
+    }
+    .title {
+        width: 90%;
+        margin-left: 8px;
+    }
+    .title h2 {
+        margin: 15px 10px;
+    }
+    .title p {
+        font-size: 20px;
+        margin: 10px 10px;
+    }
+}

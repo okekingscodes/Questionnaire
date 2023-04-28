@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #2906d5;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px; 
+    width: 30%;
+    margin: 15px 35%;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+.header {
+    background: #2706e4;
+    border-radius: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    width: 380px;
+    margin-top: -10%;
+    height: 80px;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 5px;
+    background: transparent;
+  }
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.avatar img {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+.award {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    background: transparent;
+}
+.award img {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+.text {
+    margin: 20px 20px;
+}
+.text p {
+    background: transparent;
+}
+
+.title {
+    display: block;
+    width: 80%;
+    margin: 10%;
+}
+.title h2 {
+    margin: 10px auto;
+}
+.title p {
+    font-size: 20px;
+}
+.select {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    width: 90%;
+    margin-left: 10%;
+    background: transparent;
+}
+.sport {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+.sport a {
+    background: transparent;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.sport img {
+    width: 60px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    margin: 15px;
+}
+.sport h3 {
+    padding: 10px auto;
+}
+
+@media(max-width: 700px) {
+    .section {
+        width: 90%;
+        margin: 5%;
+    }
+    .section a {
+        margin-bottom: 50px;
+    }
+    .header {
+        width: 310px;
+        margin-top: -22%;
+    }
+    .profile {
+        display: flex;
+        flex-direction: row;
+      }
+    .avatar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .avatar img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .award {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        background: transparent;
+    }
+    .award img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .text {
+        margin: 20px 10px;
+    }
+    .title {
+        width: 90%;
+    }
+    .title h2 {
+        margin: 5px 15px;
+    }
+    .title p {
+        font-size: 20px;
+        margin: 5px 10px;
+        }
+    .select {
+        width: 100%;
+    }
+    .sport {
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .sport a {
+        background: transparent;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+}
